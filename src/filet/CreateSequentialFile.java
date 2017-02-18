@@ -31,6 +31,9 @@ public class CreateSequentialFile {
         double money;
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Please enter account name money.");
+
+        System.out.println("$c>");
         while(input.hasNext()){
 
             try{
@@ -54,7 +57,7 @@ public class CreateSequentialFile {
                 input.nextLine();
             }
 
-            System.out.println("account name money.");
+            System.out.println("$c>");
         }
 
     }
